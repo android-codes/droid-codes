@@ -1,0 +1,10 @@
+= Droid Codes
+
+but: Apprendre au fur et à mesure à developper une application android.
+
+== Premier pas
+branch: https://github.com/android-codes/droid-codes/tree/1_premier_pas[1_premier_pas] +
+génération d'une application android sur le modèle: Navigation Drawer Acitvity +
+création d'un test unitaire.
+Manipulation d'éléments de langage et de quelques fonctions utiles.
+(listof(), String.drop(), String.dropLast())
