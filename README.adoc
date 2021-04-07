@@ -14,4 +14,4 @@ génération d'une application android sur le modèle: Navigation Drawer Acitvit
 écriture d'un test unitaire, execution locale.
 Manipulation d'éléments de langage et de quelques fonctions utiles.
 (listof(), String.drop(), String.dropLast()) +
-https://github.com/android-codes/droid-codes/tree/1_premier_pas#readme[retour à l'acceuil]
+https://github.com/android-codes/droid-codes/tree/master#readme[retour à l'acceuil]
