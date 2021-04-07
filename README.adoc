@@ -9,7 +9,7 @@ https://drive.google.com/file/d/1jDqCldnSqUtCVYYJ83PX8g7bomvcMwrq/view?usp=shari
 https://drive.google.com/file/d/1DK5SwosigHy46sKetggBianJg5TrszqC/view?usp=sharing[Reactive-Programming-in-Kotlin.pdf] +
 
 == Première activité: Premier pas
-code: https://github.com/android-codes/droid-codes/tree/1_premier_pas[1_premier_pas] +
+code: https://github.com/android-codes/droid-codes/tree/1_premier_pas#readme[1_premier_pas] +
 génération d'une application android sur le modèle: Navigation Drawer Acitvity +
 écriture d'un test unitaire, execution locale.
 Manipulation d'éléments de langage et de quelques fonctions utiles.
