@@ -36,7 +36,7 @@ class ExampleUnitTest {
     }
 
     @Test
-    fun somePrinties() {
+    fun testSomePrinties() {
         println("Hello World Android Basics")
         println("PI: $PI")
         println(dataList)
@@ -44,14 +44,14 @@ class ExampleUnitTest {
     }
 
     @Test
-    fun concat_isCorrect() {
-        val expected = dataList
-            .toString()
-            //pour supprimer le premier et dernier caractère,
-            // afin de valider l'egalité du test unitaire
-            .drop(1)//suprimer les n premier caracteres de la chaine
-            .dropLast(1)//suprimer les n derniers caracteres de la chaine
-        val result = concat(dataList)
-        assertEquals(expected, result)
+    fun test_concat_isCorrect() {
+        assertEquals(
+            concat(dataList),
+            dataList.toString()
+                //pour supprimer le premier et dernier caractère,
+                // afin de valider l'egalité du test unitaire
+                .drop(1)//suprimer les n premier caracteres de la chaine
+                .dropLast(1)//suprimer les n derniers caracteres de la chaine
+        )
     }
 }
