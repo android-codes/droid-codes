@@ -1,4 +1,4 @@
-package com.cheroliv.droid
+package education.cccp.droid.codes
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
@@ -8,11 +8,39 @@ import org.junit.Test
  *
  * See [testing documentation](http://d.android.com/tools/testing).
  */
-class ExampleUnitTest {
+const val PI = 3.1415
+const val SEPARATOR = ", "
 
+val dataList: List<String> = listOf(
+    "Android",
+    "Kotlin",
+    "Java",
+    "Javascript",
+    "Typescript",
+    "Groovy",
+    "Go",
+    "Swift",
+    "iOS"
+)
+
+fun concat(
+    texts: List<String>,
+    separator: String = SEPARATOR
+): String = texts.joinToString(separator)
+
+
+class ExampleUnitTest {
     @Test
     fun addition_isCorrect() {
         assertEquals(4, 2 + 2)
+    }
+
+    @Test
+    fun somePrinties() {
+        println("Hello World Android Basics")
+        println("PI: $PI")
+        println(dataList)
+        println(concat(dataList))
     }
 
     @Test
